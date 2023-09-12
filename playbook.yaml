@@ -14,8 +14,8 @@
         state: latest
         update_chache: yes
 
-     - name: Start Apache2 Services
-       service:
-         name: apache2 
-          state: started
-          enabled: yes
+    - name: Start Apache2 Services
+      service:
+        name: apache2 
+         state: started
+         enabled: yes
